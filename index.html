@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h2>CVCS vs DVCS</h2>
+    <p>CVCS (centralized version control system) such as Subversion (SVN) store all the code and history in a central repository. On the other hand, DVCS (distributed version control system) like Git stores a copy of the entire repository on each developer's computer, making it easier to work offline and merge changes between repositories.</p>
+    
+    <h2>Getting Started with Git</h2>
+    <p>To get started with Git, open the terminal and use the following commands:</p>
+    <ul>
+        <li><code>ls</code> - list files and directories in the current directory</li>
+        <li><code>cd</code> - change directory</li>
+    </ul>
+    
+    <p>There are two ways to start a project with Git:</p>
+    <ul>
+        <li>Create a repository and start adding files</li>
+        <li>Create a project and initialize a Git repository in it</li>
+    </ul>
+    
+    <p>If you are a new user, you need to configure your Git username and email using the following commands:</p>
+    <ul>
+        <li><code>git config --global user.name "Your Name"</code></li>
+        <li><code>git config --global user.email "your_email@example.com"</code></li>
+    </ul>
+    
+    <p>To initialize a Git repository in your project directory, use the following command:</p>
+    <ul>
+        <li><code>git init</code> - initialize Git</li>
+    </ul>
+    
+    <p>You can use the <code>ls -a</code> command to see all the hidden files in the current directory. The <code>tree</code> command can be used to view the folder structure. To see all the files and folders in the Git repository, use the following command:</p>
+    <ul>
+        <li><code>tree .git/</code> - view the Git repository structure</li>
+    </ul>
+    
+    <p>The <code>git status</code> command shows you the changes made in your project. To add a file to Git, use the following command:</p>
+    <ul>
+        <li><code>git add filename</code> - add a file to Git (the data is added to the cache and a commit ID is generated)</li>
+    </ul>
+    
+    <p>After adding files to Git, you can create a commit using the following command:</p>
+    <ul>
+        <li><code>git commit -m "Commit message"</code> - create a commit with a message as an identifier for each version</li>
+    </ul>
+    
+    <p>Each commit generates a unique version ID. To view all the commit versions, use the following command:</p>
+    <ul>
+        <li><code>git log</code> - view all commit versions</li>
+    </ul>
+    
+    <p>You can also move to a specific commit using the <code>git checkout</code> command and the commit ID. To view all commits, including those that have been removed, use the following command:</p>
+    <ul>
+        <li><code>git log --all</code> - view all commits</li
+    
+
+
+
+    
+</body>
+</html>
